@@ -1,0 +1,909 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T12:46:39.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "To do a fund transfer in ParasBank Site",
+        "description": "",
+        "id": "parasbank;to-do-a-fund-transfer-in-parasbank-site;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "31-Jul-2020 06:16:47 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_1.png\u003eSucessfully Launched parasbank Site  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 8353000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Launch the parasBank Site",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Launch_the_parasBank_Site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:49 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_2.png\u003eLogged in Successfully  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1775000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Input the User Name and password and click login \"Ha2\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ha2",
+                  "offset": 50
+                },
+                {
+                  "val": "123",
+                  "offset": 60
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.Input_the_User_Name_and_password_and_click_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:50 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_3.png\u003eNavigated to Account opening section  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1677000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Navigate to Open New Account section",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Navigate_to_Open_New_Account_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:52 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_4.png\u003eDetails inputted for New Account opening  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3619000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Select the Account Type \"SAVINGS\" and Click Open new accountButton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SAVINGS",
+                  "offset": 27
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.I_Select_the_Account_Type(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:54 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_5.png\u003eNew Account opened  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 458000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "A New account is opened",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.A_New_account_is_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:57 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_6.png\u003eNavigated to Fund transfer page  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2964000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Click the Transfer Funds option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_the_Transfer_Funds_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:58 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_7.png\u003eFund transfer Amount inputted  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 486000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input the Amount 10 to be transferred",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 17
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.Input_the_Amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:16:59 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_8.png\u003eFund transfer account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1590000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select the Account from which transfer to happen",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Select_the_Account_from_which_transfer_to_happen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click TransferButton",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Click_TransferButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:00 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_9.png\u003eFund transfer complete  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1663000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Fund transfer is complete",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Fund_transfer_is_complete()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:04 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_10.png\u003eNavigated to Account Overvew section  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2914000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Click the Accounts Overview Option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_the_Accounts_Overview_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:08 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_11.png\u003eParticular account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3852000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select the Account from the table",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Select_the_Account_from_the_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:10 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_12.png\u003eNavigated to Account details Screen  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2366000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Details of the Account Displayed",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Details_of_the_Account_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:21 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_13.png\u003eAccount summary of the account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 10916000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Account activity details displayed is exported to excel",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Account_activity_details_displayed_is_exported_to_excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:25 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_14.png\u003eSuccessfully logged out  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3613000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Click Logout option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_Logout_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 932000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Successfully logged out from parasbank Site",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Successfully_logged_out_from_parasbank_Site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParaBankTest"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T12:47:29.904Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "To do a fund transfer in ParasBank Site",
+        "description": "",
+        "id": "parasbank;to-do-a-fund-transfer-in-parasbank-site;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "31-Jul-2020 06:17:37 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_15.png\u003eSucessfully Launched parasbank Site  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 7100000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Launch the parasBank Site",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Launch_the_parasBank_Site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:38 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_16.png\u003eLogged in Successfully  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1590000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Input the User Name and password and click login \"Ha2\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ha2",
+                  "offset": 50
+                },
+                {
+                  "val": "123",
+                  "offset": 60
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.Input_the_User_Name_and_password_and_click_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:39 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_17.png\u003eNavigated to Account opening section  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 961000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Navigate to Open New Account section",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Navigate_to_Open_New_Account_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:41 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_18.png\u003eDetails inputted for New Account opening  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3572000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Select the Account Type \"CHECKING\" and Click Open new accountButton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CHECKING",
+                  "offset": 27
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.I_Select_the_Account_Type(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:43 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_19.png\u003eNew Account opened  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "A New account is opened",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.A_New_account_is_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:46 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_20.png\u003eNavigated to Fund transfer page  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2896000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Click the Transfer Funds option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_the_Transfer_Funds_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:46 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_21.png\u003eFund transfer Amount inputted  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input the Amount 20 to be transferred",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 17
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.Input_the_Amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:48 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_22.png\u003eFund transfer account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1578000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select the Account from which transfer to happen",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Select_the_Account_from_which_transfer_to_happen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click TransferButton",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Click_TransferButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:49 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_23.png\u003eFund transfer complete  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1700000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Fund transfer is complete",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Fund_transfer_is_complete()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:53 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_24.png\u003eNavigated to Account Overvew section  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3458000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Click the Accounts Overview Option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_the_Accounts_Overview_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:56 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_25.png\u003eParticular account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2938000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select the Account from the table",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Select_the_Account_from_the_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:17:59 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_26.png\u003eNavigated to Account details Screen  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2373000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Details of the Account Displayed",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Details_of_the_Account_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:09 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_27.png\u003eAccount summary of the account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 10409000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Account activity details displayed is exported to excel",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Account_activity_details_displayed_is_exported_to_excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:11 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_28.png\u003eSuccessfully logged out  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2186000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Click Logout option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_Logout_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 979000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Successfully logged out from parasbank Site",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Successfully_logged_out_from_parasbank_Site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParaBankTest"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T12:48:16.443Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "To do a fund transfer in ParasBank Site",
+        "description": "",
+        "id": "parasbank;to-do-a-fund-transfer-in-parasbank-site;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "31-Jul-2020 06:18:23 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_29.png\u003eSucessfully Launched parasbank Site  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 6917000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Launch the parasBank Site",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Launch_the_parasBank_Site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:25 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_30.png\u003eLogged in Successfully  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1656000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Input the User Name and password and click login \"Ha2\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ha2",
+                  "offset": 50
+                },
+                {
+                  "val": "123",
+                  "offset": 60
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.Input_the_User_Name_and_password_and_click_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:26 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_31.png\u003eNavigated to Account opening section  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1697000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Navigate to Open New Account section",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Navigate_to_Open_New_Account_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:28 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_32.png\u003eDetails inputted for New Account opening  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3522000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Select the Account Type \"CHECKING\" and Click Open new accountButton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CHECKING",
+                  "offset": 27
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.I_Select_the_Account_Type(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:30 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_33.png\u003eNew Account opened  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 376000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "A New account is opened",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.A_New_account_is_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:33 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_34.png\u003eNavigated to Fund transfer page  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3047000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Click the Transfer Funds option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_the_Transfer_Funds_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:34 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_35.png\u003eFund transfer Amount inputted  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 438000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input the Amount 30 to be transferred",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 17
+                }
+              ],
+              "location": "com.internetapp.pages.ParasBankBDD.Input_the_Amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:35 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_36.png\u003eFund transfer account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1497000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select the Account from which transfer to happen",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Select_the_Account_from_which_transfer_to_happen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click TransferButton",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Click_TransferButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:36 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_37.png\u003eFund transfer complete  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1710000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Fund transfer is complete",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Fund_transfer_is_complete()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:40 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_38.png\u003eNavigated to Account Overvew section  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2900000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Click the Accounts Overview Option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_the_Accounts_Overview_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:43 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_39.png\u003eParticular account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2883000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select the Account from the table",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Select_the_Account_from_the_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:45 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_40.png\u003eNavigated to Account details Screen  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2351000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Details of the Account Displayed",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Details_of_the_Account_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:18:59 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_41.png\u003eAccount summary of the account selected  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 14406000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Account activity details displayed is exported to excel",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Account_activity_details_displayed_is_exported_to_excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "31-Jul-2020 06:19:02 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_42.png\u003eSuccessfully logged out  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2245000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Click Logout option",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.I_Click_Logout_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 952000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Successfully logged out from parasbank Site",
+            "match": {
+              "location": "com.internetapp.pages.ParasBankBDD.Successfully_logged_out_from_parasbank_Site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParaBankTest"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "ParasBank",
+    "description": "  I want to login Parasbank site open a account and do a fund transfer",
+    "id": "parasbank",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ParasBank.feature",
+    "tags": [
+      {
+        "name": "@ParaBankTest",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

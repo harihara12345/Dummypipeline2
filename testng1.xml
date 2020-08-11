@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParasBankAssignment">
+ 
+
+ <test name="Parasbank">
+ <parameter name="option1" value="SAVINGS"/>
+
+  <classes>
+ <class name="com.internetapp.tests.ParasBankTest" />
+ </classes>
+ </test>
+</suite>

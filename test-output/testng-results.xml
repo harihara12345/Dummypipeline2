@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152670" started-at="2020-07-31T12:46:30Z" finished-at="2020-07-31T12:49:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="152670" started-at="2020-07-31T12:46:30Z" finished-at="2020-07-31T12:49:03Z">
+      <class name="com.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner@343570b7]" name="setUpClass" is-config="true" duration-ms="887" started-at="2020-07-31T18:16:30Z" finished-at="2020-07-31T18:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@343570b7]" name="setTestName" is-config="true" duration-ms="8" started-at="2020-07-31T18:16:31Z" finished-at="2020-07-31T18:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@606fc505]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@343570b7]" name="scenario" duration-ms="54898" started-at="2020-07-31T18:16:31Z" data-provider="scenarios" finished-at="2020-07-31T18:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To do a fund transfer in ParasBank Site"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ParasBank]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@343570b7]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-07-31T18:17:26Z" finished-at="2020-07-31T18:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=To do a fund transfer in ParasBank Site status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@343570b7]" name="setTestName" is-config="true" duration-ms="1" started-at="2020-07-31T18:17:26Z" finished-at="2020-07-31T18:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4aa3d36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@343570b7]" name="scenario" duration-ms="46320" started-at="2020-07-31T18:17:26Z" data-provider="scenarios" finished-at="2020-07-31T18:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To do a fund transfer in ParasBank Site"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ParasBank]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@343570b7]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-07-31T18:18:12Z" finished-at="2020-07-31T18:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=To do a fund transfer in ParasBank Site status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@343570b7]" name="setTestName" is-config="true" duration-ms="4" started-at="2020-07-31T18:18:12Z" finished-at="2020-07-31T18:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2d140a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@343570b7]" name="scenario" duration-ms="50351" started-at="2020-07-31T18:18:12Z" data-provider="scenarios" finished-at="2020-07-31T18:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To do a fund transfer in ParasBank Site"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ParasBank]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@343570b7]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-07-31T18:19:03Z" finished-at="2020-07-31T18:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=To do a fund transfer in ParasBank Site status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@343570b7]" name="tearDownClass" is-config="true" duration-ms="126" started-at="2020-07-31T18:19:03Z" finished-at="2020-07-31T18:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

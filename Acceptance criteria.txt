@@ -1,0 +1,154 @@
+
+1 - Accetance criteria for 13 methods:
+
+1. browserwindows
+    	//Scenario - Successfully accessing the Browser window option
+    	//Given <Logged into Demoqa.com URL>
+    	//And <I'm in the Alerts, Frame & Windows section>
+    	//And <Selected Browser Windows sub option>
+    	//When <I click the "New Tab" button>
+    	//Then <A new tab is opened in the same window screen>
+    	//When <I click the "New Window" button>
+    	//Then <A new Window is opened>
+    	//When <I click the "New Window Message" button>
+    	//Then <A new Window with message content is opened> 
+    	
+2. Alerts    	
+    	
+    	//Scenario - Successfully accessing the Alerts sub-option
+    	//Given <Logged into Demoqa.com URL>
+    	//And <I'm in the Alerts, Frame & Windows section>
+    	//And <Selected Browser Alerts sub option>
+    	//When <I click the First "Click Me" button>
+    	//Then <A Simple Alert pops up And it is able to accept>
+    	//When <I click the Second "Click Me" button>
+    	//Then <A  Simple Alert pops up after 5 secs And it is able to accept>
+    	//When <I click the Third "Click Me" button>
+    	//Then <A  Confirmation Alert pops up And it is able to accept or Reject>
+    	//When <I click the Forth "Click Me" button>
+    	//Then <A  Prompt Alert pops up And it is able to input a text>
+    	
+3. Frames   	
+        	//Scenario - Successfully accessing the Frames sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Alerts, Frame & Windows section>
+        	//And <Selected Browser Frames sub option>
+        	//When <I switch to a Frame>
+        	//Then <Able to access the frame>
+        	
+4. Modal Dialogs	
+        	//Scenario - Successfully accessing the Modal Dialogs sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Alerts, Frame & Windows section>
+        	//And <Selected Modal Dialogs sub option>
+        	//When <I click the "Small Modal" button >
+        	//Then <A Modal dialog box appears with message content>
+        	//And <Able to close it>
+        	
+        	
+5. Accordian    	
+        	//Scenario - Successfully accessing the Accordian sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Accordian sub option>
+        	//When <I click the Accordian tab >
+        	//Then <Contents of the Accordian tab is displayed>
+6. Autocomplete        	
+   	
+        	//Scenario - Successfully accessing the Auto Complete sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Auto Complete sub option>
+        	//When <I click the text box with Auto Complete feature  and input a characters>
+        	//Then <Values matching the inputted characters is displayed and selected>
+        	
+        	
+7. DatePicker    	
+        	//Scenario - Successfully accessing the Date Picker sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Date Picker sub option>
+        	//When <I click the Date Picker box and input the Date and Time>
+        	//Then <Date and Time inputted is updated>
+        	
+        	
+8. Slider	
+        	//Scenario - Successfully accessing the Slider sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Slider sub option>
+        	//When <I swipe the slider>
+        	//Then <The Slider value gets displayed for the slider movement>
+        	
+ 9. Progress Bar        	
+        	//Scenario - Successfully accessing the Progress Bar sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Progress Bar sub option>
+        	//When <I click the "Start" button>
+        	//Then <Progress bar stars progressing and displays the percentage of progress>
+        	////When <I click the "Stop" button>
+        	//Then <Progress bar stops progressing and displays the final percentage of progress>
+        	
+10. Page Tabs       	
+        	//Scenario - Successfully accessing the Tabs sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Tabs sub option>
+        	//When <I click tab>
+        	//Then <Contents of the tag are displayed>
+        	
+11. Menu        	
+        	//Scenario - Successfully accessing the Menu sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Menu sub option>
+        	//When <I click the Main Menu Option>
+        	//Then <Sub menus under it are listed>
+        	//When <I click the listed Sub Menu Option>
+        	//Then <Sub menus under it are listed>
+        	
+12. Select Menu        	
+        	//Scenario - Successfully accessing the Select Menu sub-option
+        	//Given <Logged into Demoqa.com URL>
+        	//And <I'm in the Widgets section>
+        	//And <Selected Select Menu sub option>
+        	//When <I click the Select Drop down and select an option from this list >
+        	//Then <option is selected>
+
+
+2.a - Acceptance criteria for Practise Form:
+
+	//Scenario - Successfully updating Student Registration form
+    	//Given <Logged into Demoqa.com URL>
+    	//And <I'm in the Forms section>
+    	//And <Selected Practice Form sub option>
+    	//When <I input the First Name, Last Name, Email, Mobile Number and Current Address in the text fields>
+    	//When <I Select the Gender>
+    	//When <I Input Date of birth>
+    	//When <I Input the Subjects>
+    	//When <I Select the Hobbiess>
+    	//When <I Select the City>
+    	//Then <Submit button is displayed>
+	//When <I Click the Submit button>
+	//Then <A popup with inputted details displayed>
+	//When <I click the Close button>
+	//Then Pop up screen is closed 
+
+2.b - Acceptance criteria for Book Store appication:
+
+//Scenario - Successfully updating Student Registration form
+    	//Given <Logged into Demoqa.com URL>
+    	//And <I'm in the Book Store Application section>
+    	//And <Selected Login option>
+    	//When <I Input the User Name and Password>
+		//And click the Login button
+		//Then Navigated to Book Store screen
+		//When I input the search box with search word
+		//Then Search results matching the search qord displayed
+		//When I Click a search keyword
+		//Then Navigated to Book Store screen
+		//When i Click the Add to your collection Button 
+		//Then a Alert message is popped up for confirmation
+		//When the Alert pop up is accepted
+		//Then the Search item displayed in the Profile screen

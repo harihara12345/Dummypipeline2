@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [ParasBankAssignment]" parallel="methods">
+  <test name="Parasbank(failed)" parallel="methods">
+    <parameter name="option1" value="SAVINGS"/>
+    <classes>
+      <class name="com.internetapp.tests.ParasBankTest">
+        <methods>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- com.internetapp.tests.ParasBankTest -->
+    </classes>
+  </test> <!-- Parasbank(failed) -->
+</suite> <!-- Failed suite [ParasBankAssignment] -->
